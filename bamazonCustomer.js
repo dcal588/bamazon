@@ -43,7 +43,10 @@ function chooseItem (res) {
               item_id: inquirerResponse.itemchoice
             }
         	],
-       	);
+        );
+        var total = res[0].price*inquirerResponse.amount;
+        console.log("Your order was successful! Thank you! Your total for this order is: $"+ total);
+         connection.end();
       }
       else {
         console.log("Sorry, we do not have enough in stock to fullfill your order.");
