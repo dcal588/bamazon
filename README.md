@@ -6,11 +6,11 @@ This program uses node, JS and MySQL and NPM's like mysql and inquirer.
 
 The program is meant to simulate a storefront that stores product information in a MySQL Table that includes:
 
-*ID
-*Name
-*Department
-*Quanitity in Stock
-*Price
+* ID
+* Name
+* Department
+* Quanitity in Stock
+* Price
 
 ## Interaction
 The app folows the following steps:
