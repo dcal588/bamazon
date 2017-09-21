@@ -13,7 +13,7 @@ The program is meant to simulate a storefront that stores product information in
 * Price
 
 ## Interaction
-The app folows the following steps:
+The app follows these steps:
 
 1. The app lists the products available and includes:
   a. Item Id
